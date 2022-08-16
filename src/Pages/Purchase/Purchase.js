@@ -13,7 +13,7 @@ const Purchase = () => {
   const { id } = useParams();
   const [detail, setDetail] = useState({});
   useEffect(() => {
-    fetch(`https://nameless-dusk-38073.herokuapp.com//${id}`)
+    fetch(`https://nameless-dusk-38073.herokuapp.com/${id}`)
       .then((res) => res.json())
       .then((data) => setDetail(data));
   }, []);
@@ -35,7 +35,7 @@ const Purchase = () => {
       const newAvailAble = available - quantity;
       const updatedProduct = { newAvailAble };
 
-      fetch(`https://nameless-dusk-38073.herokuapp.com//orders`, {
+      fetch(`https://nameless-dusk-38073.herokuapp.com/orders`, {
         method: "POST", // or 'PUT'
         headers: {
           "Content-Type": "application/json",
@@ -47,7 +47,7 @@ const Purchase = () => {
           console.log("Success:", data);
         });
 
-      fetch(`https://nameless-dusk-38073.herokuapp.com//${id}`, {
+      fetch(`https://nameless-dusk-38073.herokuapp.com/${id}`, {
         method: "PUT", // or 'PUT'
         headers: {
           "Content-Type": "application/json",

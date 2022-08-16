@@ -15,7 +15,7 @@ const GetReview = () => {
 
     const newReview = {name,location,img, review }
 
-    fetch(`https://nameless-dusk-38073.herokuapp.com//reviews`, {
+    fetch(`https://nameless-dusk-38073.herokuapp.com/reviews`, {
         method: "POST", // or 'PUT'
         headers: {
           "Content-Type": "application/json",
