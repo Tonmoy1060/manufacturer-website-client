@@ -2,61 +2,28 @@
     {
         "_id":1,
         "name":"Camera",
-        "price":3000,
-        "quantity":1000,
+        "minimum": 500,
+        "price": 30000,
+        "quantity":2000,
         "description":"The third method is called scanning because the sensor moves across the focal plane much like the sensor of an image scanner.",
-        "img":"https://img.freepik.com/free-photo/product-photographer-with-camera-studio_23-2148970262.jpg?t=st=1653542210~exp=1653542810~hmac=5fad3389f09c42cae5b96e3556752de6d0faca631d696aa11242615fe975a7e3&w=740",
-        "available":[
-            "0-100",
-            "0-100",
-            "0-100",
-            "0-100",
-            "0-100",
-            "0-100",
-            "0-100",
-            "0-100",
-            "0-100",
-            "0-100"
-        ]
+        "img":"https://img.freepik.com/free-photo/product-photographer-with-camera-studio_23-2148970262.jpg?t=st=1653542210~exp=1653542810~hmac=5fad3389f09c42cae5b96e3556752de6d0faca631d696aa11242615fe975a7e3&w=740"
     },
     {
         "_id":2,
         "name":"Flash",
-        "price":2000,
-        "quantity":1000,
+        "minimum": 1000,
+        "price": 10000,
+        "quantity": 5000,
         "description":"The third method is called scanning because the sensor moves across the focal plane much like the sensor of an image scanner.",
-        "img":"https://img.freepik.com/free-photo/professional-lighting-equipment-movie-set-with-smoke-air_1268-17216.jpg?t=st=1653542210~exp=1653542810~hmac=4920ed3c4821216dcb80f108fe4f0a2c6593f90a1f6bd786e1abf9fa933966e8&w=900",
-        "available":[
-            "0-100",
-            "0-100",
-            "0-100",
-            "0-100",
-            "0-100",
-            "0-100",
-            "0-100",
-            "0-100",
-            "0-100",
-            "0-100"
-        ]
+        "img":"https://img.freepik.com/free-photo/professional-lighting-equipment-movie-set-with-smoke-air_1268-17216.jpg?t=st=1653542210~exp=1653542810~hmac=4920ed3c4821216dcb80f108fe4f0a2c6593f90a1f6bd786e1abf9fa933966e8&w=900"
     },
     {
         "_id":3,
         "name":"Prime Lence",
-        "price":4000,
-        "quantity":1000,
+        "minimum": 1000,
+        "price": 40000,
+        "quantity": 10000,
         "description":"The third method is called scanning because the sensor moves across the focal plane much like the sensor of an image scanner.",
-        "img":"https://img.freepik.com/free-photo/professional-camera-close-up-photographer-s-desktop-blurred-background_169016-10677.jpg?t=st=1653542210~exp=1653542810~hmac=19fc4258f5183a725eba4be1799eb59b1adddf50d7c66c7c8fe40c2d2ba901ff&w=740",
-        "available":[
-            "0-100",
-            "0-100",
-            "0-100",
-            "0-100",
-            "0-100",
-            "0-100",
-            "0-100",
-            "0-100",
-            "0-100",
-            "0-100"
-        ]
+        "img":"https://img.freepik.com/free-photo/professional-camera-close-up-photographer-s-desktop-blurred-background_169016-10677.jpg?t=st=1653542210~exp=1653542810~hmac=19fc4258f5183a725eba4be1799eb59b1adddf50d7c66c7c8fe40c2d2ba901ff&w=740"
     }
 ]

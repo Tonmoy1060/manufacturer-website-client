@@ -15,7 +15,7 @@ const Register = () => {
     useCreateUserWithEmailAndPassword(auth);
 
   const [signInWithGoogle, gUser, gLoading, gError] = useSignInWithGoogle(auth);
-  const [updateProfile, updating, updateError] = useUpdateProfile(auth);
+  const [updateProfile, eUpdating, updateError] = useUpdateProfile(auth);
   
 
   const  registerButton = async (event) => {
@@ -23,13 +23,14 @@ const Register = () => {
     const name = event.target.name.value;
     const email = event.target.email.value;
     const password = event.target.password.value;
+    const number = event.target.number.value;
 
     await createUserWithEmailAndPassword(email, password);
     await updateProfile({displayName: name})
     event.target.reset();
   };
 
-  if(loading || gLoading) {
+  if(loading || gLoading || eUpdating) {
     return <Loading></Loading>
   }
 

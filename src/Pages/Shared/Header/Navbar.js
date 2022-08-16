@@ -62,7 +62,7 @@ const Navbar = () => {
           )}
           </ul>
         </div>
-        <a className="btn btn-ghost normal-case text-4xl text-accent">
+        <a className="btn btn-ghost normal-case sm:text-xl lg:text-4xl md:text-3xl   text-accent">
           Camera's Home
         </a>
       </div>
@@ -70,9 +70,6 @@ const Navbar = () => {
         <ul className="menu menu-horizontal p-0">
           <li>
             <Link to="/">Home</Link>
-          </li>
-          <li>
-            <Link to="/purchase">Purchase</Link>
           </li>
           <li>
             <Link to="/dashbord">Dashbord</Link>
